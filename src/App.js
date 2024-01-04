@@ -33,6 +33,7 @@ function App() {
                       <li>CSS</li>
                       <li>HTML</li>
                       <li>Node.js</li>
+                      <li>mySQL</li>
                     </ul>
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/src"><i className="fa-brands fa-github"></i></a></div>
@@ -58,7 +59,7 @@ function App() {
                       <li>Node.js</li>
                     </ul>
                     <div className='links'>
-                      <div><i className="fa-brands fa-github"></i></div>
+                      <div><a href="https://github.com/freddym123/Chat-App"><i className="fa-brands fa-github"></i></a></div>
                       <div><i className="fa-solid fa-up-right-from-square"></i></div>
                     </div>
                   </div>
@@ -82,9 +83,10 @@ function App() {
                       <li>CSS</li>
                       <li>Python</li>
                       <li>Node.js</li>
+                      <li>mySQL</li>
                     </ul>
                     <div className='links'>
-                      <div><i className="fa-brands fa-github"></i></div>
+                      <div><a href="https://github.com/freddym123/Recipe-App"><i className="fa-brands fa-github"></i></a></div>
                       <div><i className="fa-solid fa-up-right-from-square"></i></div>
                     </div>
                   </div>
