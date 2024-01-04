@@ -13,6 +13,7 @@ export default function About(){
           <li>React</li>
           <li>Node.js</li>
           <li>Python</li>
+          <li>mySQL</li>
         </ul>
       </div>
 

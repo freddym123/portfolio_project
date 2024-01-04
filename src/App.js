@@ -33,7 +33,6 @@ function App() {
                       <li>CSS</li>
                       <li>HTML</li>
                       <li>Node.js</li>
-                      <li>mySQL</li>
                     </ul>
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/src"><i className="fa-brands fa-github"></i></a></div>
