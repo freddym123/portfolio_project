@@ -1,5 +1,58 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #001220;
+  overflow-x: hidden;
+}
+
+
+main{
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+
+@media screen and (min-width: 1000px) {
+  main{
+    width: 50%;
+  }
+
+  .project{
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .project-text:nth-child(2) .desc-text{
+    transform: translateX(-9%);
+  }
+
+  .desc-text{
+    background-color: #122f44;
+    padding: 12px 16px;
+    min-width: 110%;
+    padding: 1rem;
+    z-index: 3;
+    position: relative;
+    border-radius: 10px;
+  }
+
+  .project-text:nth-child(2){
+    text-align: right;
+  }
+  
+  .project-text:nth-child(2) .links,.project-text:nth-child(2) .desc-footer ul{
+    justify-content: flex-end;
+  }
+  
+  .project-text:nth-child(2) .desc-footer ul li{
+    padding: 1rem 0 0 1rem;
+  }
+  
 }
 
 .App-logo {
@@ -11,7 +64,20 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
+  
 }
+
+
+
+img{
+  width: 100%;
+  height: 350px;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +90,188 @@
   color: white;
 }
 
+p.small{
+  font-size: (25px + 1vmin);
+}
+
+.recentTools{
+  margin-top: 1rem;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+}
+
+.desc-footer ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.desc-footer ul li{
+  padding: 1rem 1rem 0 0;
+}
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.links{
+  display: flex;
+  
+}
+
+.project{
+  display: grid;
+  margin: 2rem 0;
+  gap: 1rem;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
+.about{
+  margin: 1rem 0;
+}
+
+.first::before{
+  content: "01.";
+}
+
+.second::before{
+  content: "02.";
+}
+
+.last::before{
+  content: "03.";
+}
+
+.sub-title::before{
+  color: #4bccdd;
+  margin-right: 1rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formWrapper{
+  padding-bottom: 5rem;
+}
+
+.contactInfo{
+  margin-top: 1rem;
+}
+
+label{
+  display: block;
+}
+
+.desc-text{
+  background-color: #122f44;
+  padding: 12px 16px;
+  padding: 1rem;
+  z-index: 3;
+  position: relative;
+  border-radius: 10px;
+}
+
+.workTools{
+  grid-template-columns: max-content max-content;
+  padding: 1rem;
+  column-gap: 2rem;
+}
+
+.links div{
+  padding-right: 1rem;
+}
+div.hero{
+  padding: 10rem 0;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+  position: relative;
+  
+}
+
+h2{
+  margin: 1rem 0;
+}
+
+h3{
+  margin: 0 0 1rem 0;
+}
+
+.featured{
+  margin-top: 1rem;
+  color:#4bccdd
+}
+
+.name, div.hero-content p.who{
+  font-size: calc(10px + 5vmin);
+}
+
+div.hero-content div{
+  width: 50%;
+  margin-top: 1rem;
+}
+
+div.hero-content p{
+  font-size: calc(12px + 1vmin);
+}
+
+a{
+  color: white;
+}
+
+
+
+div.hero-content{
+  z-index: 6;
+  position: absolute;
+  color: white;
+  margin: 0 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  text-align: left;
+  
+}
+
+svg{
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+#path1{
+  animation: wave alternate 3s infinite ease-in-out;
+}
+
+#path2{
+  animation: wave alternate 3s infinite ease-in-out;
+  animation-delay: 1s;
+}
+#path3{
+  animation: wave alternate 3s infinite ease-in-out;
+  animation-delay: 2s;
+}
+#path4{
+  animation: wave alternate 3s infinite ease-in-out;
+  animation-delay: 3s;
+}
+#path5{
+  animation: wave alternate 3s infinite ease-in-out;
+  animation-delay: 4s;
+}
+
+@keyframes wave {
+  0%{
+    transform: translateX(0);
   }
-  to {
-    transform: rotate(360deg);
+  100%{
+    transform: translate(-50%);
   }
 }
+
