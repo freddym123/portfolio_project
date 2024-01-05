@@ -91,7 +91,7 @@ img{
 }
 
 p.small{
-  font-size: (25px + 1vmin);
+  font-size: calc(25px + 1vmin);
 }
 
 .recentTools{
@@ -121,10 +121,19 @@ ul{
   
 }
 
+.project-text{
+  font-size: calc(5px + 1vmin);
+}
+
+.formWrapper{
+  font-size: calc(5px + 1vmin);
+}
+
 .project{
   display: grid;
   margin: 2rem 0;
   gap: 1rem;
+  width: 100%;
   overflow-x: hidden;
 }
 
