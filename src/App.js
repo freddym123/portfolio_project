@@ -5,6 +5,7 @@ import About from './components/About';
 import editor from "./images/editor.png"
 import chatapp from "./images/chatapp.png"
 import recipeapp from "./images/recipeapp.png"
+import pixelEditor from "./images/PixelEditor.png"
 
 function App() {
   return (
@@ -91,6 +92,30 @@ function App() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className='project'>
+            <div className='project-text' data-aos="fade-right">
+                <p className='featured'>Featured Project</p>
+                <h3>Pixel Editor</h3>
+                <div className='desc'>
+                  <div className='desc-text'>
+                    A Pixel Art editor that has key features found in other pixel art editors. Features include save, upload, squares, erase, and a paint bucket  
+                  </div> 
+                  <div className='desc-footer'>
+                    <ul>
+                      <li>React Js</li>
+                      <li>CSS</li>
+                      <li>HTML</li>
+                    </ul>
+                    <div className='links'>
+                      <div><a href="https://github.com/freddym123/Pixel-Art-Editor"><i className="fa-brands fa-github"></i></a></div>
+                      <div><i className="fa-solid fa-up-right-from-square"></i></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='image-container' data-aos="fade-left"><img src={pixelEditor}></img></div>
+              
             </div>
 
           </div>
