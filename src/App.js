@@ -109,7 +109,7 @@ function App() {
                     </ul>
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/Pixel-Art-Editor"><i className="fa-brands fa-github"></i></a></div>
-                      <div><i className="fa-solid fa-up-right-from-square"></i></div>
+                      <div><a href="https://freddym123.github.io/Pixel-Art-Editor/"><i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                   </div>
                 </div>
