@@ -18,6 +18,30 @@ function App() {
         <div>
           <h2 className='sub-title second'>Some Things I've Built</h2>
           <div className='projects'>
+          <div className='project'>
+            <div className='project-text' data-aos="fade-right">
+                <p className='featured'>Featured Project</p>
+                <h3>Pixel Editor</h3>
+                <div className='desc'>
+                  <div className='desc-text'>
+                    A Pixel Art editor that has key features found in other pixel art editors. Features include save, upload, squares, erase, and a paint bucket  
+                  </div> 
+                  <div className='desc-footer'>
+                    <ul>
+                      <li>React Js</li>
+                      <li>CSS</li>
+                      <li>HTML</li>
+                    </ul>
+                    <div className='links'>
+                      <div><a href="https://github.com/freddym123/Pixel-Art-Editor"><i className="fa-brands fa-github"></i></a></div>
+                      <div><a href="https://freddym123.github.io/Pixel-Art-Editor/"><i className="fa-solid fa-up-right-from-square"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='image-container' data-aos="fade-left"><img src={pixelEditor}></img></div>
+              
+            </div>
             <div className='project'>
               <div className='image-container' data-aos="fade-right"><img src={editor}></img></div>
               <div className='project-text' data-aos="fade-left">
@@ -37,7 +61,7 @@ function App() {
                     </ul>
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/src"><i className="fa-brands fa-github"></i></a></div>
-                      <div><i className="fa-solid fa-up-right-from-square"></i></div>
+                      <div><a href="https://youtu.be/qKs4WtmW7cs"><i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                   </div>
                 </div>
@@ -60,7 +84,7 @@ function App() {
                     </ul>
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/Chat-App"><i className="fa-brands fa-github"></i></a></div>
-                      <div><i className="fa-solid fa-up-right-from-square"></i></div>
+                      <div><a href="https://youtu.be/hi8G2DZYG2U"><i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                   </div>
                 </div>
@@ -87,35 +111,11 @@ function App() {
                     </ul>
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/Recipe-App"><i className="fa-brands fa-github"></i></a></div>
-                      <div><i className="fa-solid fa-up-right-from-square"></i></div>
+                      <div><a href="https://youtu.be/bmmN6lS_Iqg"><i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='project'>
-            <div className='project-text' data-aos="fade-right">
-                <p className='featured'>Featured Project</p>
-                <h3>Pixel Editor</h3>
-                <div className='desc'>
-                  <div className='desc-text'>
-                    A Pixel Art editor that has key features found in other pixel art editors. Features include save, upload, squares, erase, and a paint bucket  
-                  </div> 
-                  <div className='desc-footer'>
-                    <ul>
-                      <li>React Js</li>
-                      <li>CSS</li>
-                      <li>HTML</li>
-                    </ul>
-                    <div className='links'>
-                      <div><a href="https://github.com/freddym123/Pixel-Art-Editor"><i className="fa-brands fa-github"></i></a></div>
-                      <div><a href="https://freddym123.github.io/Pixel-Art-Editor/"><i className="fa-solid fa-up-right-from-square"></i></a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='image-container' data-aos="fade-left"><img src={pixelEditor}></img></div>
-              
             </div>
 
           </div>
