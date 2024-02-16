@@ -6,6 +6,7 @@ import editor from "./images/editor.png"
 import chatapp from "./images/chatapp.png"
 import recipeapp from "./images/recipeapp.png"
 import pixelEditor from "./images/PixelEditor.png"
+import mobileRecipeApp from "./images/mobile-recipe-app.png"
 
 function App() {
   return (
@@ -112,6 +113,30 @@ function App() {
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/Recipe-App"><i className="fa-brands fa-github"></i></a></div>
                       <div><a href="https://youtu.be/bmmN6lS_Iqg"><i className="fa-solid fa-up-right-from-square"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='project'>
+              <div className='image-container' data-aos="fade-right"><img src={mobileRecipeApp} style={{objectFit: "contain"}}></img></div>
+              <div className='project-text' data-aos="fade-left">
+              <p className='featured'>Featured Project</p>
+                <h3>Mobile Recipe App</h3>
+                <div className='desc'>
+                  <div className='desc-text'>
+                    A mobile recipe application that shows popular recipes. First it shows the ingridients that are needed, then user can decide if they want to cook it. User can then save recipes if they are logged In.
+                  </div>
+                  <div className='desc-footer'>
+                    <ul>
+                      <li>React Native</li>
+                      <li>Node.js</li>
+                      <li>MongoDB</li>
+                    </ul>
+                    <div className='links'>
+                      <div><a href="https://github.com/freddym123/Mobile-Recipe-App"><i className="fa-brands fa-github"></i></a></div>
+                      <div><a href="https://youtu.be/VGcG8jDN-UQ"><i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                   </div>
                 </div>
