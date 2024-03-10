@@ -7,6 +7,7 @@ import chatapp from "./images/chatapp.png"
 import recipeapp from "./images/recipeapp.png"
 import pixelEditor from "./images/PixelEditor.png"
 import mobileRecipeApp from "./images/mobile-recipe-app.png"
+import carApp from "./images/Screenshot 2024-03-09 093613.png"
 
 function App() {
   return (
@@ -42,6 +43,27 @@ function App() {
               </div>
               <div className='image-container' data-aos="fade-left"><img src={pixelEditor}></img></div>
               
+            </div>
+            <div className='project'>
+              <div className='image-container' data-aos="fade-right"><img src={carApp}></img></div>
+              <div className='project-text' data-aos="fade-left">
+              <p className='featured'>Featured Project</p>
+                <h3>Car Game</h3>
+                <div className='desc'>
+                  <div className='desc-text'>
+                    A car game where the player avoids incloming traffic while collecting coins and trying to beat their highscore. Player can change the color of their vehicle.  
+                  </div>
+                  <div className='desc-footer'>
+                    <ul>
+                      <li>Python</li>      
+                    </ul>
+                    <div className='links'>
+                      <div><a href="https://github.com/freddym123/Car_Game"><i className="fa-brands fa-github"></i></a></div>
+                      <div><a href="https://youtu.be/3uNgpD-1ZUc"><i className="fa-solid fa-up-right-from-square"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className='project'>
               <div className='image-container' data-aos="fade-right"><img src={editor}></img></div>
