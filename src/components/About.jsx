@@ -14,6 +14,7 @@ export default function About(){
           <li>Node.js</li>
           <li>Python</li>
           <li>mySQL</li>
+          <li>Django</li>
         </ul>
       </div>
 

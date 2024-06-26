@@ -3,7 +3,7 @@ import './App.css';
 import Hero from './components/Hero';
 import About from './components/About';
 import editor from "./images/editor.png"
-import chatapp from "./images/chatapp.png"
+import ecommerce from "./images/ecommerce.png"
 import recipeapp from "./images/recipeapp.png"
 import pixelEditor from "./images/PixelEditor.png"
 import mobileRecipeApp from "./images/mobile-recipe-app.png"
@@ -85,7 +85,7 @@ function App() {
                     </ul>
                     <div className='links'>
                       <div><a href="https://github.com/freddym123/src"><i className="fa-brands fa-github"></i></a></div>
-                      <div><a href="https://youtu.be/qKs4WtmW7cs"><i className="fa-solid fa-up-right-from-square"></i></a></div>
+                      <div><a href="https://www.youtube.com/watch?v=BgtuLGRmv1Q"><i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                   </div>
                 </div>
@@ -94,26 +94,27 @@ function App() {
             <div className='project'>
             <div className='project-text' data-aos="fade-right">
                 <p className='featured'>Featured Project</p>
-                <h3>Chat App</h3>
+                <h3>Ecommerce Site</h3>
                 <div className='desc'>
                   <div className='desc-text'>
-                    A messaging application that allows one to one communication through the use of sockets. The applications features a friend request and friend list feature. User is able to click through chats to text their contacts.
+                    An Ecommerece website to sells bags, wallets, and more.
                   </div> 
                   <div className='desc-footer'>
                     <ul>
-                      <li>React Js</li>
+                      <li>Django</li>
+                      <li>Python</li>
+                      <li>HTML</li>
                       <li>CSS</li>
-                      <li>MongoDB</li>
-                      <li>Node.js</li>
+                      <li>Javascript</li>
                     </ul>
                     <div className='links'>
-                      <div><a href="https://github.com/freddym123/Chat-App"><i className="fa-brands fa-github"></i></a></div>
-                      <div><a href="https://youtu.be/hi8G2DZYG2U"><i className="fa-solid fa-up-right-from-square"></i></a></div>
+                      <div><a href="https://github.com/freddym123/Ecommerce"><i className="fa-brands fa-github"></i></a></div>
+                      <div><a href="https://ecommerce-production-9bb5.up.railway.app/"><i className="fa-solid fa-up-right-from-square"></i></a></div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='image-container' data-aos="fade-left"><img src={chatapp}></img></div>
+              <div className='image-container' data-aos="fade-left"><img src={ecommerce}></img></div>
               
             </div>
             <div className='project'>
