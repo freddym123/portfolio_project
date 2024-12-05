@@ -67,8 +67,8 @@ function App() {
               </div>
             </div>
             <div className='project'>
-              <div className='image-container' data-aos="fade-right"><img src={editor}></img></div>
-              <div className='project-text' data-aos="fade-left">
+              
+              <div className='project-text' data-aos="fade-right">
                 <p className='featured'>Featured Project</p>
                 <h3>Javascript editor</h3>
                 <div className='desc'>
@@ -90,65 +90,12 @@ function App() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='project'>
-            <div className='project-text' data-aos="fade-right">
-                <p className='featured'>Featured Project</p>
-                <h3>Ecommerce Site</h3>
-                <div className='desc'>
-                  <div className='desc-text'>
-                    An Ecommerece website to sells bags, wallets, and more.
-                  </div> 
-                  <div className='desc-footer'>
-                    <ul>
-                      <li>Django</li>
-                      <li>Python</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Javascript</li>
-                    </ul>
-                    <div className='links'>
-                      <div><a href="https://github.com/freddym123/Ecommerce"><i className="fa-brands fa-github"></i></a></div>
-                      <div><a href="https://ecommerce-production-9bb5.up.railway.app/"><i className="fa-solid fa-up-right-from-square"></i></a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='image-container' data-aos="fade-left"><img src={ecommerce}></img></div>
-              
-            </div>
-            <div className='project'>
-              <div className='image-container double' data-aos="fade-right">
-                <img src={mobileRecipeApp} style={{objectFit: "contain"}}></img>
-                <img src={recipeapp}></img>
-                </div>
-              <div className='project-text' data-aos="fade-left">
-              <p className='featured'>Featured Project</p>
-                <h3>Recipe App</h3>
-                <div className='desc'>
-                  <div className='desc-text'>
-                  A recipe application that shows popular recipes. First it shows the ingridients that are needed, then user can decide if they want to cook it. User can then save recipes if they are logged In.
-                  </div>
-                  <div className='desc-footer'>
-                    <ul>
-                      <li>React Native</li>
-                      <li>Node.js</li>
-                      <li>MongoDB</li>
-                      <li>React js</li>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                    </ul>
-                    <div className='links'>
-                      <div><a href="https://github.com/freddym123/Recipe-App"><i className="fa-brands fa-github"></i></a></div>
-                      <div><a href="https://youtu.be/VGcG8jDN-UQ"><i className="fa-solid fa-up-right-from-square"></i></a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <div className='image-container' data-aos="fade-left"><img src={editor}></img></div>
             </div>
 
             <div className='project'>
-              <div className='project-text' data-aos="fade-right">
+            <div className='image-container' data-aos="fade-right"><img src={StudyBud} style={{objectFit: "cover"}}></img></div>
+              <div className='project-text' data-aos="fade-left">
               <p className='featured'>Featured Project</p>
                 <h3>Study Buddy</h3>
                 <div className='desc'>
@@ -171,7 +118,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className='image-container' data-aos="fade-left"><img src={StudyBud} style={{objectFit: "cover"}}></img></div>
+              
             </div>
 
             
